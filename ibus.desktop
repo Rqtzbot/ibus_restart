@@ -1,0 +1,20 @@
+[Desktop Entry]
+#版本号
+Version=1.0 
+#设置为Application
+Type=Application
+#软件名称
+Name=ibus restart
+#通用名称
+GenericName=ibus restart
+#填写对软件的简短描述
+Comment=The software is used to debug family robot
+#填写用于启动软件的命令，可以是可执行文件的路径或者是启动脚本
+Exec=/home/ibus restart/ibus.sh
+#如果软件需要在终端中运行，将其设为true；否则，设为false。
+Terminal=false
+#填写软件的图标路径，可以是绝对路径或者相对路径。
+Icon=/home/ibus restart/down.png
+#用于指定与应用程序关联的文件类型，指的是软件用于处理哪种类型的文件
+StartupNotify=true
+
